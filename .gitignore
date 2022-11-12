@@ -6,3 +6,8 @@ main_app/migrations/*
 !main_app/migrations/0001_initial.py
 db.sqlite3
 
+/venv
+__pycache__
+db.sqlite3          # not needed if you're using Postgres locally
+main_app/static/
+
